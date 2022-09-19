@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TestApplication" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/osn</item>
+        <item name="colorPrimaryVariant">@color/osn</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="textInputStyle">@style/TextInputLayout</item>
+        <item name="android:statusBarColor">@color/osn</item>
+        <item name="android:fontFamily">@font/fonts</item>
+        <item name="otpViewStyle">@style/OtpWidget.OtpView</item>
+    </style>
+</resources>
